@@ -1,0 +1,89 @@
+/* Mobile and tablet */ 
+
+@media ( max-width: 1023px) {
+    .btn{
+        padding: 15px 16px;
+    }
+
+    #nav .nav2 a{
+        padding: 5px 24px;
+    }
+    
+    .contact-form,form-control{
+        padding: 15px;
+    }
+    #footer .copyright a{
+        padding: 8px 0;
+    }
+    #footer .social-list a{
+        margin: 0 8px;
+    }
+    .contact-infor i[class*="ti-"]{
+        line-height: 2;
+    }
+}
+/* tablet*/ 
+
+@media (min-width: 740px) and (max-width: 1023px) {
+
+}
+/* Mobile */ 
+
+@media (max-width: 739px) {
+    .s-full-width{
+        width: 100% !important;
+    }
+    .s-col-full{
+        width: 100% !important;
+    }
+    .s-mt-8{
+        margin-top: 8px !important;
+    }
+    #header {
+        overflow: hidden;
+    }
+    #header .search-btn{
+        display: none;
+    }
+    #header .mobile-menu-btn{
+        display: block;
+    }
+
+    #nav {
+        display: block;
+    }
+    #nav li{
+        display: block;
+    }
+    #nav > li:first-child {
+        display: inline-block;
+    }
+    #nav .nav2{
+        position: initial;
+        background-color: #333;
+    }
+    #nav .nav2 a{
+        color: #fff;
+        padding: 5px 41px;
+    }
+    #nav li a {
+        padding: 1px 24px;
+    }
+    
+    #content .menber-item{
+        margin-top: 30px;
+        width: 100%;
+    }
+    #content .menber-img{
+        height: auto;
+        width: 60%;
+    }
+    .contact-form{
+        margin-top: 16px;
+    }
+    .contact-infor{
+        margin-top: 32px;
+        line-height: 2;
+    }
+
+}
